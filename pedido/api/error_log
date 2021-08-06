@@ -1,0 +1,7 @@
+[27-Jan-2021 18:28:09 America/Chicago] PHP Warning:  error_log(log/proyecto.log): failed to open stream: No such file or directory in /home1/senshi/operaciones.senshi.pe/model/AccesoBD.class.php on line 16
+[27-Jan-2021 18:28:09 America/Chicago] PHP Fatal error:  Uncaught Exception: No se pudo conectar al Servidor Too many connections in /home1/senshi/operaciones.senshi.pe/model/AccesoBD.class.php:8
+Stack trace:
+#0 /home1/senshi/operaciones.senshi.pe/model/Producto.php(21): AccesoBD::ConexionBD(Array)
+#1 /home1/senshi/operaciones.senshi.pe/pedido/api/getPlatosNormales.php(5): Producto->__construct()
+#2 {main}
+  thrown in /home1/senshi/operaciones.senshi.pe/model/AccesoBD.class.php on line 8

@@ -1,0 +1,60 @@
+header, main, footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+.flexColumn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*content align self column*/
+.flex-content {
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.d-inline {
+    display: inline !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+@media only screen and (min-width: 992px) {
+    .hide-on-lg-and-up {
+        display: none !important;
+    }
+}
